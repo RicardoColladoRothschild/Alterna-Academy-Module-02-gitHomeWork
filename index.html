@@ -16,10 +16,15 @@
             font-size:62.5%;
         }
         .formulario-container--user{
+            width:300px;
             display:flex;
             flex-direction: column;
             gap:16px;
             font-size:1.6rem;
+        }
+        .input-btn{
+            width:100px;
+            height:31px;
         }
         h1{
             font-size:3.6rem;
@@ -33,7 +38,7 @@
 </head>
 <body>
     <div class="fruits-container">
-            <h1>Compra de frutas</h1>
+            <h1>Lista de Compra de frutas</h1>
         <ul class="list-container">
             <li>Mango</li>
             <li>Fresa</li>
@@ -56,7 +61,7 @@
                 Edad
                 <input type="text" name="edad" id="edad">
             </label>
-
+            <input class="input-btn" type="submit" value="Enviar" width="100px">
         </form>
 </body>
 </html>
